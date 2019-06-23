@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #adadad3b;
+  
+}
+.container1{
+  display: flex;
+  flex-direction: row;
+   /* by default */
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.container1:focus{
+  border: none;
+}
+
+.playground1{
+  display: flex;
+  flex-direction: column;
+}
+
+.playground{
+  display: flex;
+  flex-direction: column;
+   /* by default */
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.container:focus{
+  border: none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.cell{
+  border : solid 1px black;
+  width: 20px;
+  height: 20px;
+}
+
+.snake{
+  /* background-color: rgb(114, 245, 8); */
+  font-size: 30px;
+  color: red;
+  line-height: 0.7;
+}
+.head{
+  font-size: 30px;
+  color: red;
+  line-height: 0.7;
+  /* background-color: rgb(38, 80, 3); */
+}
+.food{
+  background-color: rgb(243, 239, 9);
+}
+.obstacle{
+  background-color: rgb(95, 46, 0);
+}
