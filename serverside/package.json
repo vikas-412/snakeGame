@@ -9,7 +9,7 @@
   "author": "viki",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "backend.ai-client": "^0.4.0",
     "body-parser": "^1.18.3",
